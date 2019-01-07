@@ -94,5 +94,5 @@ target_link_libraries(daemon
     ${Blocks})
 set_property(TARGET daemon
   PROPERTY
-    OUTPUT_NAME "datacenter")
+    OUTPUT_NAME "datacenterd")
 install(TARGETS daemon DESTINATION bin)
